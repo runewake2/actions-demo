@@ -22,3 +22,5 @@ jobs:
         username: "Reactor Stream"
     - name: Custom Container Action
       uses: ./container
+      with:
+        username: "Reactor Stream"
