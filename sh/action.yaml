@@ -1,7 +1,11 @@
 name: "Custom GitHub Action"
 description: "Quick demo action"
+inputs:
+  username:
+    description: "A username to welcome"
+    required: true
 runs:
   using: "composite"
   steps:
-    - run: echo "Hello World"
+    - run: echo "Hello ${{ inputs.username }}"
       shell: bash
