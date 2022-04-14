@@ -16,3 +16,5 @@ jobs:
       uses: ./sh
     - name: Custom JavaScript Action
       uses: ./javascript
+    - name: Custom Container Action
+      uses: ./container
