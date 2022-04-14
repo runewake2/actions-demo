@@ -1,5 +1,9 @@
 name: "Custom GitHub Action"
 description: "Quick demo action"
+inputs:
+  username:
+    description: "A username to welcome"
+    required: true
 runs:
   using: "node16"
   main: "main.js"
