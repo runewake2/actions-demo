@@ -18,5 +18,7 @@ jobs:
         username: "Reactor Stream"
     - name: Custom JavaScript Action
       uses: ./javascript
+      with:
+        username: "Reactor Stream"
     - name: Custom Container Action
       uses: ./container
